@@ -227,10 +227,12 @@ def lembab(df_hour):
 
 
 df_day = load_data(
-    "https://raw.githubusercontent.com/rapilap/UjianAkhirSemester/main/day.csv"
+    "https://raw.githubusercontent.com/rapilap/UjianAkhirSemester3/main/day.csv"
+#   "https://github.com/rapilap/UjianAkhirSemester3/blob/main/day.csv"
 )
 df_hour = load_data(
-    "https://raw.githubusercontent.com/rapilap/UjianAkhirSemester/main/hour.csv"
+    "https://raw.githubusercontent.com/rapilap/UjianAkhirSemester3/main/hour.csv"
+    # "https://github.com/rapilap/UjianAkhirSemester3/blob/main/hour.csv"
 )
 
 st.header(f"Dashboard Analisis Peminjaman Sepeda")
